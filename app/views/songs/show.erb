@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div><%= @song.name %></div><br>
+
+    <div><%= link_to("delete", @song, method: "DELETE") %></div><br>
+    <div><%= link_to("All Songs", songs_path)%></div>
+  </body>
+</html>

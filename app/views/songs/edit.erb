@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%= form_for @song do |f| %>
+       <%= f.label :name %>
+       <%= f.text_field :name %>
+       <%= f.submit %>
+       <% end %>
+  </body>
+</html>
